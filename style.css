@@ -1,0 +1,43 @@
+body{
+  background-color: gray;
+}
+
+h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+}
+
+.center-frame{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 700px;
+  height: 600px;
+
+  border-radius: 15px;
+  background: yellow;
+}
+
+.text-button{
+  background-color: #ff0000;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: white;
+  width: 70px;
+  height: 35px;
+
+}
+
+.task-input{
+  height: 30px;
+  width: 500px;
+}
+
+.center{
+  margin: auto;
+  width:90%;
+}
