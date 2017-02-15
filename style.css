@@ -10,6 +10,7 @@ h1{
 .center-frame{
   position: absolute;
   margin: auto;
+  padding: 5px 10px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -29,15 +30,27 @@ h1{
   color: white;
   width: 70px;
   height: 35px;
+  float: right;
 
 }
 
 .task-input{
+  padding-left: 10px;
+  font-size: 25px;
   height: 30px;
-  width: 500px;
+  width: 540px;
 }
 
 .center{
   margin: auto;
   width:90%;
+}
+
+.todo-elements{
+  margin: 30px auto 15px;
+  padding: 0px 15px;
+  width: 85%;
+  height: 400px;
+  border: 5px solid red;
+  overflow: auto;
 }
