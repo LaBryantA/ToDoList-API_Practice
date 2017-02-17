@@ -41,9 +41,11 @@ function toggleCompletion(task){
   getList();
 }
 
-$(document).ready(function(){
+// $(document).ready(function(){
+function(){
   $(".text-button").click(function(){
     var input = $(".task-input").val();
+    alert("hello")
     if(input){
       $.ajax({
         url: toDoAPI,
@@ -58,4 +60,4 @@ $(document).ready(function(){
       })
     }
   })
-})
+}
